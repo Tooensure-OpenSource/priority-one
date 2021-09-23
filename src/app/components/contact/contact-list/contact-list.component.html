@@ -1,0 +1,37 @@
+<!-- Angular Compoent -->
+<!-- Displays Contact Item -->
+<section
+*ngFor="let contact of contacts"
+[id]="contact.id">
+    <!-- ForEach email in list of emails -->
+    <section class="btn-item">
+        <app-contact-item
+        *ngFor="let email of emailList"
+        [email]="email"
+        [id]="contact.id"
+        [isCallList]="isCallList"
+        [isEmailList]="isEmailList"
+        [isMenuList]="isMenuList"></app-contact-item>
+    </section>
+    <!-- ForEach phoneNumber in list of phoneNumbers -->
+    <section class="btn-item">
+        <app-contact-item
+        *ngFor="let phoneNumber of phoneNumberList"
+        [phoneNumber]="phoneNumber"
+        [id]="contact.id"
+        [isCallList]="isCallList"
+        [isEmailList]="isEmailList"
+        [isMenuList]="isMenuList"></app-contact-item>
+    </section>
+</section>
+
+
+<!-- 
+<app-contact-item
+*ngFor="let email of emailList"
+[id]="contact.id"></app-contact-item>
+<app-contact-item
+*ngFor="let phoneNumber of phoneNumberList"
+[phoneNumber]="phoneNumber"
+[id]="contact.id"></app-contact-item>
+ -->

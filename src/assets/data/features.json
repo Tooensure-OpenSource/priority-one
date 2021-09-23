@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "iconPath" : null,
+        "name" : "Business Support",
+        "description" : "Have a business and need support? We can provide around the clock support for your network and servers. Call us today!"
+    },
+    {
+        "id" : 2,
+        "iconPath" : null,
+        "name" : "Managed IT Services",
+        "description" : "We can help you take care of your day-to-day technology needs so you can focus on your business. Call us today!"
+    },
+    {
+        "id" : 3,
+        "iconPath" : null,
+        "name" : "Computer Repairs",
+        "description" : "Is your computer slow, unresponsive, or just getting old? We can help you find a new computer or repair the existing one you own. Call Us today!"
+    }
+]

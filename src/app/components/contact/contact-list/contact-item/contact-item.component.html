@@ -1,0 +1,29 @@
+<section>
+    <!-- Show if email exist -->
+    <section *ngIf="email != undefined && isEmailList == true"
+    class="mb-2">
+        <section *ngIf="email.contactId == id">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a>
+                        {{email.text}}
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </section>
+    
+    <!-- Show if phone-number if exist -->
+    <section *ngIf="phoneNumber != undefined && isCallList == true"
+    class="mb-2">
+        <section *ngIf="phoneNumber.contactId == id">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a  href="tel:{{phoneNumber.text}}">
+                        {{phoneNumber.text}}
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </section>
+</section>

@@ -1,0 +1,14 @@
+<app-dropdown-item *ngIf="callListActive == true">
+    <app-contact
+    [isCallList]="callListActive"></app-contact>
+</app-dropdown-item>
+
+<app-dropdown-item *ngIf="emailListActive == true">
+    <app-contact
+    [isEmailList]="emailListActive"></app-contact>
+</app-dropdown-item>
+
+<app-dropdown-item *ngIf="menuListActive == true">
+    <app-contact
+    [isMenuList]="menuListActive"></app-contact>
+</app-dropdown-item>

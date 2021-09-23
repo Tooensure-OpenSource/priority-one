@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "navItems" : [
+            {
+                "id" : 1,
+                "tag" : "brand",
+                "dropdown" : ["About Us", "test"]
+            },
+            {
+                "id" : 2,
+                "tag" : "menu",
+                "dropdown" : ["About Us", "test"]
+            },
+            {
+                "id" : 3,
+                "tag" : "phone",
+                "dropdown" : ["About Us", "test"]
+            },
+            {
+                "id" : 4,
+                "tag" : "mail",
+                "dropdown" : ["tooensuremaster@gmail.com", "test@gmail.com"]
+            }
+        ]
+    }
+]

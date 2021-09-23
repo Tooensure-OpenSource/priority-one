@@ -1,0 +1,49 @@
+.navigation {
+    &__cheackbox {
+    
+    }
+    &__button {
+        position: fixed;
+        z-index: 2000;
+    }
+    .test {
+        width: 6rem;
+    }
+    &__background {
+        position: fixed;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        background-color: yellow;   
+        z-index: 1000;
+        // transform: scale(50);
+    }
+    &__button {
+        
+    }   
+    &__nav {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1500;
+        opacity: 0;
+        width: 0;
+    }
+    &__list{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style-type: none;
+        text-align: center;
+    }
+    &__item {
+        
+    }
+
+    &__checkbox:checked ~ &__background {
+        transform: scale(50);
+        width: 100%;
+    }
+}

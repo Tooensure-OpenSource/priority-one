@@ -1,0 +1,10 @@
+.brandText {
+    // font-family: 'Abril Fatface', cursive;
+    // font-family: 'Rampart One', cursive;
+    font-family: 'Concert One', cursive;
+}
+.brand {
+    &__text {
+        font-family: 'Concert One', cursive;
+    }
+}
